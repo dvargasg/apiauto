@@ -1,0 +1,2237 @@
+GET ACTIVE TASKS
+
+1) get active tasks - PASSED:
+$ curl https://api.todoist.com/rest/v2/tasks   -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0[
+        {
+                "id": "7231575457",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": null,
+                "parent_id": null,
+                "order": 1,
+                "content": "Connect my work calendar to Todoist",
+                "description": "[Calendar Integrations | Todoist](https://en.todoist.com/integrations?category=calendars&utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work)",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.032231Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575457",
+                "duration": null
+        },
+        {
+                "id": "7231575471",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195968",
+                "parent_id": null,
+                "order": 1,
+                "content": "Do a weekly review of my tasks and goals",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 2,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.157932Z",
+                "due": {
+                        "date": "2023-09-17",
+                        "string": "ev sun",
+                        "lang": "en",
+                        "is_recurring": true
+                },
+                "url": "https://todoist.com/showTask?id=7231575471",
+                "duration": null
+        },
+        {
+                "id": "7231575477",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195969",
+                "parent_id": null,
+                "order": 1,
+                "content": "Review my day and plan ahead",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 2,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.250294Z",
+                "due": {
+                        "date": "2023-09-18",
+                        "timezone": "Etc/GMT+4",
+                        "string": "ev workday at 5pm",
+                        "lang": "en",
+                        "is_recurring": true,
+                        "datetime": "2023-09-18T21:00:00Z"
+                },
+                "url": "https://todoist.com/showTask?id=7231575477",
+                "duration": null
+        },
+        {
+                "id": "7231575478",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195968",
+                "parent_id": null,
+                "order": 2,
+                "content": "Add more _personal_ routines",
+                "description": "e.g.: pay taxes yearly, empty the bins weekly, meditate for 10 mins ev weekday at 9am",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.269069Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575478",
+                "duration": null
+        },
+        {
+                "id": "7231575490",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195969",
+                "parent_id": null,
+                "order": 2,
+                "content": "Adapt my _work_ routines",
+                "description": "e.g.: perform daily shutdown routine, prepare weekly team meeting every Tuesday",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.401021Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575490",
+                "duration": null
+        },
+        {
+                "id": "7231575496",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195970",
+                "parent_id": null,
+                "order": 1,
+                "content": "[7 Real-Life Todoist Setups to Steal](https://blog.doist.com/todoist-setup/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal) 💡",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.481738Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575496",
+                "duration": null
+        },
+        {
+                "id": "7231575506",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195970",
+                "parent_id": null,
+                "order": 2,
+                "content": "[Organizing Your Family's To-do List with Todoist (Lessons From Users)](https://blog.doist.com/family-todo-list/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal)",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.628859Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575506",
+                "duration": null
+        },
+        {
+                "id": "7231575509",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195971",
+                "parent_id": null,
+                "order": 1,
+                "content": "[Perform a workday shutdown routine](https://blog.doist.com/end-work-day/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work) 🌖",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.694987Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575509",
+                "duration": null
+        },
+        {
+                "id": "7231575519",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195970",
+                "parent_id": null,
+                "order": 3,
+                "content": "Explore Todoist's curated [personal templates](https://todoist.com/templates/category/personal?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal)",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.754390Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575519",
+                "duration": null
+        },
+        {
+                "id": "7231575527",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195971",
+                "parent_id": null,
+                "order": 2,
+                "content": "[Todoist Integrations That Will Boost Your Productivity](https://blog.doist.com/todoist-integrations-productivity/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work)",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.874996Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575527",
+                "duration": null
+        },
+        {
+                "id": "7231575543",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195971",
+                "parent_id": null,
+                "order": 3,
+                "content": "Explore Todoist's curated [work templates](https://todoist.com/templates/category/work?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work)",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:29.078351Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575543",
+                "duration": null
+        },
+        {
+                "id": "7231576417",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675595",
+                "section_id": null,
+                "parent_id": null,
+                "order": 1,
+                "content": "Learn the basics with the easy-to-follow [Getting Started Guide](https://todoist.com/getting-started?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) 🔗",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 4,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:45.003579Z",
+                "due": {
+                        "date": "2023-09-15",
+                        "string": "Sep 15",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7231576417",
+                "duration": null
+        },
+        {
+                "id": "7231576424",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675595",
+                "section_id": null,
+                "parent_id": null,
+                "order": 2,
+                "content": "Take the [productivity method quiz](https://todoist.com/productivity-methods?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox)",
+                "description": "Get a personalized recommendation from Todoist",
+                "is_completed": false,
+                "labels": [],
+                "priority": 3,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:45.162088Z",
+                "due": {
+                        "date": "2023-09-16",
+100  9077    0  9077    0     0   9065      0 --:--:--  0:00:01 --:--:--  9077g": "Sep 16",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7231576424",
+                "duration": null
+        },
+        {
+                "id": "7231576427",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675595",
+                "section_id": null,
+                "parent_id": null,
+                "order": 3,
+                "content": "Download additional [free apps and plugins](https://todoist.com/help/articles/205383721?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) for 💻,⌚️,🖥,📱 and 📧",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:45.337329Z",
+                "due": {
+                        "date": "2023-09-18",
+                        "string": "Sep 18",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7231576427",
+                "duration": null
+        }
+]
+
+
+GET TASK BY ID
+
+1) get task by id - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=7231576427
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl https://api.todoist.com/rest/v2/tasks/$id_task   -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   719  100   719    0     0   1065      0 --:--:-- --:--:-- --:--:--  1066{
+        "id": "7231576427",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319675595",
+        "section_id": null,
+        "parent_id": null,
+        "order": 3,
+        "content": "Download additional [free apps and plugins](https://todoist.com/help/articles/205383721?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) for 💻,⌚️,🖥,📱 and 📧",
+        "description": "",
+        "is_completed": false,
+        "labels": [],
+        "priority": 1,
+        "comment_count": 0,
+        "creator_id": "45708352",
+        "created_at": "2023-09-15T13:31:45.337329Z",
+        "due": {
+                "date": "2023-09-18",
+                "string": "Sep 18",
+                "lang": "en",
+                "is_recurring": false
+        },
+        "url": "https://todoist.com/showTask?id=7231576427",
+        "duration": null
+}
+
+
+
+2) ry to get a task by id (id doesn't exist)- PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=7231576428
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl https://api.todoist.com/rest/v2/tasks/$id_task   -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    14  100    14    0     0     50      0 --:--:-- --:--:-- --:--:--    50Task not found
+
+
+3) Get a task by id (wrong variable name for the id. I PUT "ID_TAS" INSTEAD OF "ID_TASK") -> FAILED: 
+This is a bug, since it is returning all the tasks, but none should be returning since the variable name doesn't exist
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl https://api.todoist.com/rest/v2/tasks/$id_tas   -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0[
+        {
+                "id": "7231575457",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": null,
+                "parent_id": null,
+                "order": 1,
+                "content": "Connect my work calendar to Todoist",
+                "description": "[Calendar Integrations | Todoist](https://en.todoist.com/integrations?category=calendars&utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work)",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.032231Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575457",
+                "duration": null
+        },
+        {
+                "id": "7231575471",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195968",
+                "parent_id": null,
+                "order": 1,
+                "content": "Do a weekly review of my tasks and goals",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 2,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.157932Z",
+                "due": {
+                        "date": "2023-09-17",
+                        "string": "ev sun",
+                        "lang": "en",
+                        "is_recurring": true
+                },
+                "url": "https://todoist.com/showTask?id=7231575471",
+                "duration": null
+        },
+        {
+                "id": "7231575477",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195969",
+                "parent_id": null,
+                "order": 1,
+                "content": "Review my day and plan ahead",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 2,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.250294Z",
+                "due": {
+                        "date": "2023-09-18",
+                        "timezone": "Etc/GMT+4",
+                        "string": "ev workday at 5pm",
+                        "lang": "en",
+                        "is_recurring": true,
+                        "datetime": "2023-09-18T21:00:00Z"
+                },
+                "url": "https://todoist.com/showTask?id=7231575477",
+                "duration": null
+        },
+        {
+                "id": "7231575478",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195968",
+                "parent_id": null,
+                "order": 2,
+                "content": "Add more _personal_ routines",
+                "description": "e.g.: pay taxes yearly, empty the bins weekly, meditate for 10 mins ev weekday at 9am",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.269069Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575478",
+                "duration": null
+        },
+        {
+                "id": "7231575490",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195969",
+                "parent_id": null,
+                "order": 2,
+                "content": "Adapt my _work_ routines",
+                "description": "e.g.: perform daily shutdown routine, prepare weekly team meeting every Tuesday",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.401021Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575490",
+                "duration": null
+        },
+        {
+                "id": "7231575496",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195970",
+                "parent_id": null,
+                "order": 1,
+                "content": "[7 Real-Life Todoist Setups to Steal](https://blog.doist.com/todoist-setup/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal) 💡",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.481738Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575496",
+                "duration": null
+        },
+        {
+                "id": "7231575506",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195970",
+                "parent_id": null,
+                "order": 2,
+                "content": "[Organizing Your Family's To-do List with Todoist (Lessons From Users)](https://blog.doist.com/family-todo-list/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal)",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.628859Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575506",
+                "duration": null
+        },
+        {
+                "id": "7231575509",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195971",
+                "parent_id": null,
+                "order": 1,
+                "content": "[Perform a workday shutdown routine](https://blog.doist.com/end-work-day/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work) 🌖",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.694987Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575509",
+                "duration": null
+        },
+        {
+                "id": "7231575519",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195970",
+                "parent_id": null,
+                "order": 3,
+                "content": "Explore Todoist's curated [personal templates](https://todoist.com/templates/category/personal?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal)",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.754390Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575519",
+                "duration": null
+        },
+        {
+                "id": "7231575527",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195971",
+                "parent_id": null,
+                "order": 2,
+                "content": "[Todoist Integrations That Will Boost Your Productivity](https://blog.doist.com/todoist-integrations-productivity/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work)",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.874996Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575527",
+                "duration": null
+        },
+        {
+                "id": "7231575543",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195971",
+                "parent_id": null,
+                "order": 3,
+                "content": "Explore Todoist's curated [work templates](https://todoist.com/templates/category/work?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work)",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:29.078351Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575543",
+                "duration": null
+        },
+        {
+                "id": "7231576417",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675595",
+                "section_id": null,
+                "parent_id": null,
+                "order": 1,
+                "content": "Learn the basics with the easy-to-follow [Getting Started Guide](https://todoist.com/getting-started?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) 🔗",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 4,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:45.003579Z",
+                "due": {
+                        "date": "2023-09-15",
+                        "string": "Sep 15",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7231576417",
+                "duration": null
+        },
+        {
+                "id": "7231576424",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675595",
+                "section_id": null,
+                "parent_id": null,
+                "order": 2,
+                "content": "Take the [productivity method quiz](https://todoist.com/productivity-methods?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox)",
+                "description": "Get a personalized recommendation from Todoist",
+                "is_completed": false,
+                "labels": [],
+                "priority": 3,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:45.162088Z",
+                "due": {
+                        "date": "2023-09-16",
+100  9077    0  9077    0     0  13107      0 --:--:-- --:--:-- --:--:-- 13136g": "Sep 16",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7231576424",
+                "duration": null
+        },
+        {
+                "id": "7231576427",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675595",
+                "section_id": null,
+                "parent_id": null,
+                "order": 3,
+                "content": "Download additional [free apps and plugins](https://todoist.com/help/articles/205383721?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) for 💻,⌚️,🖥,📱 and 📧",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:45.337329Z",
+                "due": {
+                        "date": "2023-09-18",
+                        "string": "Sep 18",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7231576427",
+                "duration": null
+        }
+]
+
+
+4) Get a task by ID (the ID is empty in the exported variable) -> FAILED:
+I think this is a bug too since the variable doesn't have any value but all the tasks are being returned
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=""
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl https://api.todoist.com/rest/v2/tasks/$id_task   -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0[
+        {
+                "id": "7231575457",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": null,
+                "parent_id": null,
+                "order": 1,
+                "content": "Connect my work calendar to Todoist",
+                "description": "[Calendar Integrations | Todoist](https://en.todoist.com/integrations?category=calendars&utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work)",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.032231Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575457",
+                "duration": null
+        },
+        {
+                "id": "7231575471",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195968",
+                "parent_id": null,
+                "order": 1,
+                "content": "Do a weekly review of my tasks and goals",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 2,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.157932Z",
+                "due": {
+                        "date": "2023-09-17",
+                        "string": "ev sun",
+                        "lang": "en",
+                        "is_recurring": true
+                },
+                "url": "https://todoist.com/showTask?id=7231575471",
+                "duration": null
+        },
+        {
+                "id": "7231575477",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195969",
+                "parent_id": null,
+                "order": 1,
+                "content": "Review my day and plan ahead",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 2,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.250294Z",
+                "due": {
+                        "date": "2023-09-18",
+                        "timezone": "Etc/GMT+4",
+                        "string": "ev workday at 5pm",
+                        "lang": "en",
+                        "is_recurring": true,
+                        "datetime": "2023-09-18T21:00:00Z"
+                },
+                "url": "https://todoist.com/showTask?id=7231575477",
+                "duration": null
+        },
+        {
+                "id": "7231575478",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195968",
+                "parent_id": null,
+                "order": 2,
+                "content": "Add more _personal_ routines",
+                "description": "e.g.: pay taxes yearly, empty the bins weekly, meditate for 10 mins ev weekday at 9am",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.269069Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575478",
+                "duration": null
+        },
+        {
+                "id": "7231575490",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195969",
+                "parent_id": null,
+                "order": 2,
+                "content": "Adapt my _work_ routines",
+                "description": "e.g.: perform daily shutdown routine, prepare weekly team meeting every Tuesday",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.401021Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575490",
+                "duration": null
+        },
+        {
+                "id": "7231575496",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195970",
+                "parent_id": null,
+                "order": 1,
+                "content": "[7 Real-Life Todoist Setups to Steal](https://blog.doist.com/todoist-setup/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal) 💡",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.481738Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575496",
+                "duration": null
+        },
+        {
+                "id": "7231575506",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195970",
+                "parent_id": null,
+                "order": 2,
+                "content": "[Organizing Your Family's To-do List with Todoist (Lessons From Users)](https://blog.doist.com/family-todo-list/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal)",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.628859Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575506",
+                "duration": null
+        },
+        {
+                "id": "7231575509",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195971",
+                "parent_id": null,
+                "order": 1,
+                "content": "[Perform a workday shutdown routine](https://blog.doist.com/end-work-day/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work) 🌖",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.694987Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575509",
+                "duration": null
+        },
+        {
+                "id": "7231575519",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675619",
+                "section_id": "134195970",
+                "parent_id": null,
+                "order": 3,
+                "content": "Explore Todoist's curated [personal templates](https://todoist.com/templates/category/personal?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal)",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.754390Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575519",
+                "duration": null
+        },
+        {
+                "id": "7231575527",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195971",
+                "parent_id": null,
+                "order": 2,
+                "content": "[Todoist Integrations That Will Boost Your Productivity](https://blog.doist.com/todoist-integrations-productivity/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work)",
+                "description": "",
+                "is_completed": false,
+                "labels": [
+                        "read"
+                ],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:28.874996Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575527",
+                "duration": null
+        },
+        {
+                "id": "7231575543",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675618",
+                "section_id": "134195971",
+                "parent_id": null,
+                "order": 3,
+                "content": "Explore Todoist's curated [work templates](https://todoist.com/templates/category/work?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=work)",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:29.078351Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7231575543",
+                "duration": null
+        },
+        {
+                "id": "7231576417",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675595",
+                "section_id": null,
+                "parent_id": null,
+                "order": 1,
+                "content": "Learn the basics with the easy-to-follow [Getting Started Guide](https://todoist.com/getting-started?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) 🔗",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 4,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:45.003579Z",
+                "due": {
+                        "date": "2023-09-15",
+                        "string": "Sep 15",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7231576417",
+                "duration": null
+        },
+        {
+                "id": "7231576424",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675595",
+                "section_id": null,
+                "parent_id": null,
+                "order": 2,
+                "content": "Take the [productivity method quiz](https://todoist.com/productivity-methods?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox)",
+                "description": "Get a personalized recommendation from Todoist",
+                "is_completed": false,
+                "labels": [],
+                "priority": 3,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:45.162088Z",
+                "due": {
+                        "date": "2023-09-16",
+100  9077    0  9077    0     0  14757      0 --:--:-- --:--:-- --:--:-- 14807g": "Sep 16",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7231576424",
+                "duration": null
+        },
+        {
+                "id": "7231576427",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319675595",
+                "section_id": null,
+                "parent_id": null,
+                "order": 3,
+                "content": "Download additional [free apps and plugins](https://todoist.com/help/articles/205383721?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) for 💻,⌚️,🖥,📱 and 📧",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45708352",
+                "created_at": "2023-09-15T13:31:45.337329Z",
+                "due": {
+                        "date": "2023-09-18",
+                        "string": "Sep 18",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7231576427",
+                "duration": null
+        }
+]
+
+CREATE A NEW TASK:
+
+1) Create a new task - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "Task for example", "description":"This is my description", "due_string": "tomorrow at 13:00", "due_lang": "en", "priority": 3}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   734  100   595  100   139    738    172 --:--:-- --:--:-- --:--:--   911{
+        "id": "7237499209",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319675595",
+        "section_id": null,
+        "parent_id": null,
+        "order": 5,
+        "content": "Task for example",
+        "description": "This is my description",
+        "is_completed": false,
+        "labels": [],
+        "priority": 3,
+        "comment_count": 0,
+        "creator_id": "45708352",
+        "created_at": "2023-09-18T05:38:34.826259Z",
+        "due": {
+                "date": "2023-09-19",
+                "string": "tomorrow at 13:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-09-19T13:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7237499209",
+        "duration": null
+}
+
+
+
+2) Try to create a task with empty "content" property- PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "", "description":"This is my description", "due_string": "tomorrow at 13:00", "due_lang": "en", "priority": 3}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   145  100    22  100   123     36    203 --:--:-- --:--:-- --:--:--   240Invalid argument value
+
+
+3) Try to create a task with empty description - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "Task for example 2", "description":"", "due_string": "tomorrow at 13:00", "due_lang": "en", "priority": 3}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   694  100   575  100   119    783    162 --:--:-- --:--:-- --:--:--   948{
+        "id": "7237508693",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319675595",
+        "section_id": null,
+        "parent_id": null,
+        "order": 6,
+        "content": "Task for example 2",
+        "description": "",
+        "is_completed": false,
+        "labels": [],
+        "priority": 3,
+        "comment_count": 0,
+        "creator_id": "45708352",
+        "created_at": "2023-09-18T05:43:57.724045Z",
+        "due": {
+                "date": "2023-09-19",
+                "string": "tomorrow at 13:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-09-19T13:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7237508693",
+        "duration": null
+}
+
+4) Try to create a task with empty "due_string" - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "", "description":"This is my description", "due_string": "", "due_lang": "en", "priority": 3}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   128  100    22  100   106     34    165 --:--:-- --:--:-- --:--:--   200Invalid argument value
+
+
+5) Try to create a task with empty "due_lang" - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "Task for example 2", "description":"", "due_string": "tomorrow at 13:00", "due_lang": "", "priority": 3}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   692  100   575  100   117    782    159 --:--:-- --:--:-- --:--:--   942{
+        "id": "7237515176",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319675595",
+        "section_id": null,
+        "parent_id": null,
+        "order": 7,
+        "content": "Task for example 2",
+        "description": "",
+        "is_completed": false,
+        "labels": [],
+        "priority": 3,
+        "comment_count": 0,
+        "creator_id": "45708352",
+        "created_at": "2023-09-18T05:47:21.336269Z",
+        "due": {
+                "date": "2023-09-19",
+                "string": "tomorrow at 13:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-09-19T13:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7237515176",
+        "duration": null
+
+6) Try to create a task with empty priority - FAILED:
+An html page is returned instead of a proper error with a proper message
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "Task for example 2", "description":"", "due_string": "tomorrow at 13:00", "due_lang": "", "priority": }'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2284  100  2168  100   116   3667    196 --:--:-- --:--:-- --:--:--  3877<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>500 - Sorry, something went wrong</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <style type="text/css">
+    body{
+        text-align:center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size:small;
+        color:#555;
+        line-height: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    a {
+        color: #db4c3f;
+        text-decoration: none;
+    }
+
+    p {
+        font-size:14px;
+        margin:8px 0 0;
+    }
+
+    #container{
+        margin:53px auto;
+        max-width:400px;
+        text-align:left;
+        padding: 20px;
+        background:#fff;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+
+    .button {
+      border: 0;
+      border-radius: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      line-height: 1.2;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+      background-color: #db4c3f;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      margin-top: 50px;
+      text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<body>
+
+
+
+
+<div id="container">
+    <p class="logo">
+        <a href="https://todoist.com/">
+            <img src="https://d3ptyyxy2at9ui.cloudfront.net/logo-todoist-b5b89f.svg" height="35" />
+        </a>
+    </p>
+
+        <h3>Sorry, something went wrong</h3>
+
+        <p>
+
+
+            If you reached this page from another part of <a href="https://todoist.com/">todoist.com</a>,
+            please <a href="https://get.todoist.help/">let us know</a> so we can correct our mistake.
+        </p>
+            <p>Error ID: 577e162b650a4284896d1527dc96f30c</p>
+</div>
+
+</body>
+
+</body>
+</html>
+
+7) Try to create a task with a value for priority outside the valid range (from 1 to 4) - FAILED:
+This is a bug since the property is allowing values outside the valid range, there is no validation for this scenario:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "Task for example 2", "description":"", "due_string": "tomorrow at 13:00", "due_lang": "", "priority": 0}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   692  100   575  100   117    774    157 --:--:-- --:--:-- --:--:--   933{
+        "id": "7237521725",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319675595",
+        "section_id": null,
+        "parent_id": null,
+        "order": 8,
+        "content": "Task for example 2",
+        "description": "",
+        "is_completed": false,
+        "labels": [],
+        "priority": 1,
+        "comment_count": 0,
+        "creator_id": "45708352",
+        "created_at": "2023-09-18T05:50:55.882377Z",
+        "due": {
+                "date": "2023-09-19",
+                "string": "tomorrow at 13:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-09-19T13:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7237521725",
+        "duration": null
+}
+
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "Task for example 2", "description":"", "due_string": "tomorrow at 13:00", "due_lang": "", "priority": 5}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   692  100   575  100   117    870    177 --:--:-- --:--:-- --:--:--  1050{
+        "id": "7237522294",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319675595",
+        "section_id": null,
+        "parent_id": null,
+        "order": 9,
+        "content": "Task for example 2",
+        "description": "",
+        "is_completed": false,
+        "labels": [],
+        "priority": 1,
+        "comment_count": 0,
+        "creator_id": "45708352",
+        "created_at": "2023-09-18T05:51:10.640698Z",
+        "due": {
+                "date": "2023-09-19",
+                "string": "tomorrow at 13:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-09-19T13:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7237522294",
+        "duration": null
+}
+
+
+8) Try to create a task with "duration" property but without specifying the "duration unit" - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "Task for example 2", "description":"", "due_string": "tomorrow at 13:00", "due_lang": "", "priority": 3, "duration": 1}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   161  100    29  100   132     60    274 --:--:-- --:--:-- --:--:--   336Item duration unit is missing
+
+
+9) Try to create a task with "duration" value outside of the valid value - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "Task for example 2", "description":"", "due_string": "tomorrow at 13:00", "due_lang": "", "priority": 3, "duration": 0, "duration_unit":"day"}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   179  100    24  100   155     43    279 --:--:-- --:--:-- --:--:--   323Item duration is invalid
+
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "Task for example 2", "description":"", "due_string": "tomorrow at 13:00", "due_lang": "", "priority": 3, "duration": -1000, "duration_unit":"day"}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   183  100    24  100   159     48    324 --:--:-- --:--:-- --:--:--   374Item duration is invalid
+
+
+10) Try to create a task with empty "duration" - PASSED:
+This is a bug since an html is returned as response instead of a proper errir plus a proper message:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks"     -X POST     --data '{"content": "Task for example 2", "description":"", "due_string": "tomorrow at 13:00", "due_lang": "", "priority": 3, "duration": , "duration_unit":"day"}'     -H "Content-Type: application/json"     -H "X-Request-Id: 1234567890"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2322  100  2168  100   154   3597    255 --:--:-- --:--:-- --:--:--  3863<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>500 - Sorry, something went wrong</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <style type="text/css">
+    body{
+        text-align:center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size:small;
+        color:#555;
+        line-height: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    a {
+        color: #db4c3f;
+        text-decoration: none;
+    }
+
+    p {
+        font-size:14px;
+        margin:8px 0 0;
+    }
+
+    #container{
+        margin:53px auto;
+        max-width:400px;
+        text-align:left;
+        padding: 20px;
+        background:#fff;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+
+    .button {
+      border: 0;
+      border-radius: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      line-height: 1.2;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+      background-color: #db4c3f;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      margin-top: 50px;
+      text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<body>
+
+
+
+
+<div id="container">
+    <p class="logo">
+        <a href="https://todoist.com/">
+            <img src="https://d3ptyyxy2at9ui.cloudfront.net/logo-todoist-b5b89f.svg" height="35" />
+        </a>
+    </p>
+
+        <h3>Sorry, something went wrong</h3>
+
+        <p>
+
+
+            If you reached this page from another part of <a href="https://todoist.com/">todoist.com</a>,
+            please <a href="https://get.todoist.help/">let us know</a> so we can correct our mistake.
+        </p>
+            <p>Error ID: af5e778cb4334f2ba4c0d1f06f0f551d</p>
+</div>
+
+</body>
+
+</body>
+</html>
+
+
+
+
+UPDATE A TASK:
+
+1) update a task - PASSED:
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=7237533668
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks/$id_task"     -X POST     --data '{"content": "Task for example 3", "description":"This is a quick desc", "due_string": "next monday at 13:00", "due_lang": "es", "priority": 1, "duration": 10, "duration_unit":"minute"}'     -H "Content-Type: application/json"     -H "X-Request-Id: $(uuidgen)"     -H "Authorization: Bearer $token"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   818  100   634  100   184    903    262 --:--:-- --:--:-- --:--:--  1166{
+        "id": "7237533668",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319675595",
+        "section_id": null,
+        "parent_id": null,
+        "order": 11,
+        "content": "Task for example 3",
+        "description": "This is a quick desc",
+        "is_completed": false,
+        "labels": [],
+        "priority": 1,
+        "comment_count": 0,
+        "creator_id": "45708352",
+        "created_at": "2023-09-18T05:56:51.076045Z",
+        "due": {
+                "date": "2023-09-25",
+                "string": "next monday at 13:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-09-25T13:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7237533668",
+        "duration": {
+                "amount": 10,
+                "unit": "minute"
+        }
+}
+
+
+2) Try to update a task with empty "content" - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks/$id_task"     -X POST     --data '{"content": "", "description":"This is a quick desc", "due_string": "next monday at 13:00", "due_lang": "es", "priority": 1, "duration": 10, "duration_unit":"minute"}'     -H "Content-Type: application/json"     -H "X-Request-Id: $(uuidgen)"     -H "Authorization: Bearer $token"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   188  100    22  100   166     37    282 --:--:-- --:--:-- --:--:--   320Invalid argument value
+
+
+3) Try to update a task with empty "priority" - FAILED:
+An html page is returned instead of a proper error code plus error message:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks/$id_task"     -X POST     --data '{"content": "Task for example 3", "description":"This is a quick desc", "due_string": "next monday at 13:00", "due_lang": "es", "priority": , "duration": 10, "duration_unit":"minute"}'     -H "Content-Type: application/json"     -H "X-Request-Id: $(uuidgen)"     -H "Authorization: Bearer $token"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2351  100  2168  100   183   3487    294 --:--:-- --:--:-- --:--:--  3798<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>500 - Sorry, something went wrong</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <style type="text/css">
+    body{
+        text-align:center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size:small;
+        color:#555;
+        line-height: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    a {
+        color: #db4c3f;
+        text-decoration: none;
+    }
+
+    p {
+        font-size:14px;
+        margin:8px 0 0;
+    }
+
+    #container{
+        margin:53px auto;
+        max-width:400px;
+        text-align:left;
+        padding: 20px;
+        background:#fff;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+
+    .button {
+      border: 0;
+      border-radius: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      line-height: 1.2;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+      background-color: #db4c3f;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      margin-top: 50px;
+      text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<body>
+
+
+
+
+<div id="container">
+    <p class="logo">
+        <a href="https://todoist.com/">
+            <img src="https://d3ptyyxy2at9ui.cloudfront.net/logo-todoist-b5b89f.svg" height="35" />
+        </a>
+    </p>
+
+        <h3>Sorry, something went wrong</h3>
+
+        <p>
+
+
+            If you reached this page from another part of <a href="https://todoist.com/">todoist.com</a>,
+            please <a href="https://get.todoist.help/">let us know</a> so we can correct our mistake.
+        </p>
+            <p>Error ID: f156efa70aa24a26a62a38ab08af78a3</p>
+</div>
+
+</body>
+
+</body>
+</html>
+
+
+4) Try to update a task with invalid values (out of range) for priority property - FAILED:
+Need to add a validation for this scenario:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks/$id_task"     -X POST     --data '{"content": "Task for example 3", "description":"This is a quick desc", "due_string": "next monday at 13:00", "due_lang": "es", "priority": 11, "duration": 10, "duration_unit":"minute"}'     -H "Content-Type: application/json"     -H "X-Request-Id: $(uuidgen)"     -H "Authorization: Bearer $token"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   819  100   634  100   185    873    254 --:--:-- --:--:-- --:--:--  1129{
+        "id": "7237533668",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319675595",
+        "section_id": null,
+        "parent_id": null,
+        "order": 11,
+        "content": "Task for example 3",
+        "description": "This is a quick desc",
+        "is_completed": false,
+        "labels": [],
+        "priority": 1,
+        "comment_count": 0,
+        "creator_id": "45708352",
+        "created_at": "2023-09-18T05:56:51.076045Z",
+        "due": {
+                "date": "2023-09-25",
+                "string": "next monday at 13:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-09-25T13:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7237533668",
+        "duration": {
+                "amount": 10,
+                "unit": "minute"
+        }
+}
+
+
+5) Try to update a task with invalid value for duration - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks/$id_task"     -X POST     --data '{"content": "Task for example 3", "description":"This is a quick desc", "due_string": "next monday at 13:00", "due_lang": "es", "priority": 2, "duration": 0, "duration_unit":"minute"}'     -H "Content-Type: application/json"     -H "X-Request-Id: $(uuidgen)"     -H "Authorization: Bearer $token"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   207  100    24  100   183     35    274 --:--:-- --:--:-- --:--:--   311Item duration is invalid
+
+
+6) Try to update with empty duration - FAILED:
+An html page is returned instead of a proper error code plus error message:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks/$id_task"     -X POST     --data '{"content": "Task for example 3", "description":"This is a quick desc", "due_string": "next monday at 13:00", "due_lang": "es", "priority": 2, "duration": , "duration_unit":"minute"}'     -H "Content-Type: application/json"     -H "X-Request-Id: $(uuidgen)"     -H "Authorization: Bearer $token"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2350  100  2168  100   182   3411    286 --:--:-- --:--:-- --:--:--  3712<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>500 - Sorry, something went wrong</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <style type="text/css">
+    body{
+        text-align:center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size:small;
+        color:#555;
+        line-height: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    a {
+        color: #db4c3f;
+        text-decoration: none;
+    }
+
+    p {
+        font-size:14px;
+        margin:8px 0 0;
+    }
+
+    #container{
+        margin:53px auto;
+        max-width:400px;
+        text-align:left;
+        padding: 20px;
+        background:#fff;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+
+    .button {
+      border: 0;
+      border-radius: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      line-height: 1.2;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+      background-color: #db4c3f;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      margin-top: 50px;
+      text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<body>
+
+
+
+
+<div id="container">
+    <p class="logo">
+        <a href="https://todoist.com/">
+            <img src="https://d3ptyyxy2at9ui.cloudfront.net/logo-todoist-b5b89f.svg" height="35" />
+        </a>
+    </p>
+
+        <h3>Sorry, something went wrong</h3>
+
+        <p>
+
+
+            If you reached this page from another part of <a href="https://todoist.com/">todoist.com</a>,
+            please <a href="https://get.todoist.help/">let us know</a> so we can correct our mistake.
+        </p>
+            <p>Error ID: 122320c4d92540a3bfac0a025325cbbb</p>
+</div>
+
+</body>
+
+</body>
+</html>
+
+
+7) Try to update a task with invalid duration_unit value - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks/$id_task"     -X POST     --data '{"content": "Task for example 3", "description":"This is a quick desc", "due_string": "next monday at 13:00", "due_lang": "es", "priority": 2, "duration": 12, "duration_unit":"hours"}'     -H "Content-Type: application/json"     -H "X-Request-Id: $(uuidgen)"     -H "Authorization: Bearer $token"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   212  100    29  100   183     53    334 --:--:-- --:--:-- --:--:--   388Item duration unit is invalid
+
+
+8)Try to update a task with empty duration_unit value - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl "https://api.todoist.com/rest/v2/tasks/$id_task"     -X POST     --data '{"content": "Task for example 3", "description":"This is a quick desc", "due_string": "next monday at 13:00", "due_lang": "es", "priority": 2, "duration": 12, "duration_unit":""}'     -H "Content-Type: application/json"     -H "X-Request-Id: $(uuidgen)"     -H "Authorization: Bearer $token"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   207  100    29  100   178     76    469 --:--:-- --:--:-- --:--:--   547Item duration unit is invalid
+
+
+
+CLOSE A TASK:
+
+1) close a task
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=7237533668
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl -X POST "https://api.todoist.com/rest/v2/tasks/$id_task/close" \
+    -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+
+2) Try to close a task with a non-existent id - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=7237533669
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl -X POST "https://api.todoist.com/rest/v2/tasks/$id_task/close"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    14  100    14    0     0     21      0 --:--:-- --:--:-- --:--:--    21Task not found
+
+
+3) Try to close a task with an empty id - FAILED:
+An html page is returned instead of a proper error code plus error message:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl -X POST "https://api.todoist.com/rest/v2/tasks/$id_task/close"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2162    0  2162    0     0   4603      0 --:--:-- --:--:-- --:--:--  4619<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>404 - Sorry, the page you're looking for isn’t here anymore</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <style type="text/css">
+    body{
+        text-align:center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size:small;
+        color:#555;
+        line-height: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    a {
+        color: #db4c3f;
+        text-decoration: none;
+    }
+
+    p {
+        font-size:14px;
+        margin:8px 0 0;
+    }
+
+    #container{
+        margin:53px auto;
+        max-width:400px;
+        text-align:left;
+        padding: 20px;
+        background:#fff;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+
+    .button {
+      border: 0;
+      border-radius: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      line-height: 1.2;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+      background-color: #db4c3f;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      margin-top: 50px;
+      text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<body>
+
+
+
+
+<div id="container">
+    <p class="logo">
+        <a href="https://todoist.com/">
+            <img src="https://d3ptyyxy2at9ui.cloudfront.net/logo-todoist-b5b89f.svg" height="35" />
+        </a>
+    </p>
+
+        <h3>Sorry, the page you're looking for isn’t here anymore</h3>
+
+        <p>
+
+
+            If you reached this page from another part of <a href="https://todoist.com/">todoist.com</a>,
+            please <a href="https://get.todoist.help/">let us know</a> so we can correct our mistake.
+        </p>
+</div>
+
+</body>
+
+</body>
+</html>
+
+
+REOPEN A TASK:
+
+1) reopen a task - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=7237530600
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl -X POST "https://api.todoist.com/rest/v2/tasks/$id_task/reopen"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+
+
+2) Try to reopen a task with a non-existent id - PASSED:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=7237533667
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl -X POST "https://api.todoist.com/rest/v2/tasks/$id_task/reopen" \
+    -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    14  100    14    0     0     24      0 --:--:-- --:--:-- --:--:--    24Task not found
+
+
+3) Try to reopen a task with an empty id - FAILED:
+An html page is returned instead of a proper error code plus error message:
+
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl -X POST "https://api.todoist.com/rest/v2/tasks/$id_task/reopen"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2162    0  2162    0     0   4269      0 --:--:-- --:--:-- --:--:--  4289<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>404 - Sorry, the page you're looking for isn’t here anymore</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <style type="text/css">
+    body{
+        text-align:center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size:small;
+        color:#555;
+        line-height: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    a {
+        color: #db4c3f;
+        text-decoration: none;
+    }
+
+    p {
+        font-size:14px;
+        margin:8px 0 0;
+    }
+
+    #container{
+        margin:53px auto;
+        max-width:400px;
+        text-align:left;
+        padding: 20px;
+        background:#fff;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+
+    .button {
+      border: 0;
+      border-radius: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      line-height: 1.2;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+      background-color: #db4c3f;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      margin-top: 50px;
+      text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<body>
+
+
+
+
+<div id="container">
+    <p class="logo">
+        <a href="https://todoist.com/">
+            <img src="https://d3ptyyxy2at9ui.cloudfront.net/logo-todoist-b5b89f.svg" height="35" />
+        </a>
+    </p>
+
+        <h3>Sorry, the page you're looking for isn’t here anymore</h3>
+
+        <p>
+
+
+            If you reached this page from another part of <a href="https://todoist.com/">todoist.com</a>,
+            please <a href="https://get.todoist.help/">let us know</a> so we can correct our mistake.
+        </p>
+</div>
+
+</body>
+
+</body>
+</html>
+
+
+
+DELETE A TASK:
+
+1) delete a task - PASSED:
+
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=7237530600
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl -X DELETE "https://api.todoist.com/rest/v2/tasks/$id_task" \
+    -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+
+2) Try to delete a task with a non-existent id - FAILED:
+It seems it is deleting the task even if the id doesn't exist
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=7237522293
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl -X DELETE "https://api.todoist.com/rest/v2/tasks/$id_task"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+3)Try to delete a task with empty id - FAILED:
+An html page is returned instead of a proper error code plus error message:
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ export id_task=
+
+Denilson.Vargas@DVARGASG-NH01 MINGW64 ~/4curl
+$ curl -X DELETE "https://api.todoist.com/rest/v2/tasks/$id_task"     -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2168  100  2168    0     0   1815      0  0:00:01  0:00:01 --:--:--  1817<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>500 - Sorry, something went wrong</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <style type="text/css">
+    body{
+        text-align:center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size:small;
+        color:#555;
+        line-height: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    a {
+        color: #db4c3f;
+        text-decoration: none;
+    }
+
+    p {
+        font-size:14px;
+        margin:8px 0 0;
+    }
+
+    #container{
+        margin:53px auto;
+        max-width:400px;
+        text-align:left;
+        padding: 20px;
+        background:#fff;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+
+    .button {
+      border: 0;
+      border-radius: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      line-height: 1.2;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+      background-color: #db4c3f;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      margin-top: 50px;
+      text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<body>
+
+
+
+
+<div id="container">
+    <p class="logo">
+        <a href="https://todoist.com/">
+            <img src="https://d3ptyyxy2at9ui.cloudfront.net/logo-todoist-b5b89f.svg" height="35" />
+        </a>
+    </p>
+
+        <h3>Sorry, something went wrong</h3>
+
+        <p>
+
+
+            If you reached this page from another part of <a href="https://todoist.com/">todoist.com</a>,
+            please <a href="https://get.todoist.help/">let us know</a> so we can correct our mistake.
+        </p>
+            <p>Error ID: ac8141e1fe0d4a71b5fe384a2de97278</p>
+</div>
+
+</body>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
